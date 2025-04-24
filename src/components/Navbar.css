@@ -1,0 +1,84 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7b828b;
+    padding: 0 20px;
+    height: 60px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    background-color: #1c1c1c;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+  }
+  
+  .logo-img {
+    height: 40px;
+  }
+  
+  .search-section {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .search-section input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 2px 0 0 2px;
+    outline: none;
+  }
+  
+  .search-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-size: 11px;
+  }
+  
+  .contact-info div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+  }
+  
+  .icon {
+    margin-right: 6px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-icon,
+  .user-icon {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+  }
+  
