@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/tyres-app-dashboard/static/css/main.d1561ef1.css",
+    "main.js": "/tyres-app-dashboard/static/js/main.4072953a.js",
+    "static/js/453.419a5d54.chunk.js": "/tyres-app-dashboard/static/js/453.419a5d54.chunk.js",
+    "static/media/t2.jpeg": "/tyres-app-dashboard/static/media/t2.a4ed9bdb5edb56a1de07.jpeg",
+    "static/media/t4.jpeg": "/tyres-app-dashboard/static/media/t4.a4ed9bdb5edb56a1de07.jpeg",
+    "static/media/t1.jpeg": "/tyres-app-dashboard/static/media/t1.5174046922af841120fa.jpeg",
+    "static/media/t3.jpeg": "/tyres-app-dashboard/static/media/t3.057a1d3dad6dc79d3488.jpeg",
+    "index.html": "/tyres-app-dashboard/index.html",
+    "main.d1561ef1.css.map": "/tyres-app-dashboard/static/css/main.d1561ef1.css.map",
+    "main.4072953a.js.map": "/tyres-app-dashboard/static/js/main.4072953a.js.map",
+    "453.419a5d54.chunk.js.map": "/tyres-app-dashboard/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1561ef1.css",
+    "static/js/main.4072953a.js"
+  ]
+}
