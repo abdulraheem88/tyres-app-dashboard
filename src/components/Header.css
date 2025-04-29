@@ -1,0 +1,131 @@
+/* src/components/Header.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Styles */
+  .navbar1 {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /* Adjust padding for better spacing */
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 80px; /* Navbar height */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow for a better look */
+  }
+  
+  /* Logo Styles */
+  .brand-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 60px; /* Logo width */
+    height: auto;
+    display: flex;
+    justify-content: flex-start; /* Align the logo to the left */
+  }
+  
+  .brand-logo img {
+    width: 100px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Navbar Links */
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-left: auto; /* Push the links to the right */
+    flex-wrap: wrap; /* Allow wrapping of nav items */
+    margin-top: 0.5rem; /* Ensure the nav links don't overlap with the logo */
+  }
+  
+  .nav-links li {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+  
+  .nav-links li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.1rem; /* Increase font size */
+  }
+  
+  .nav-links li a:hover {
+    color: red; /* Red on hover */
+  }
+  
+  .nav-links li a.active {
+    color: red; /* Red for active link */
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  /* Search Icon */
+  .search-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  /* Hamburger Menu - Responsive */
+  @media (max-width: 768px) {
+    .navbar1 {
+      flex-wrap: nowrap; /* Prevent navbar items from wrapping */
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      display: none;
+      width: 100%;
+      background-color: #333;
+      margin-top: 1rem;
+      padding: 1rem 0;
+      position: absolute; /* Absolutely position the nav items */
+      top: 80px; /* Align with navbar */
+      left: 0;
+    }
+  
+    .nav-links.show {
+      display: flex; /* Show the menu when active */
+    }
+  
+    .nav-links li {
+      text-align: center;
+      padding: 1rem;
+      width: 100%; /* Ensure full width for each link */
+    }
+  
+    .hamburger {
+      display: block;
+      position: absolute; /* Position the hamburger icon */
+      top: 20px; /* Adjust vertical position */
+      right: 20px; /* Place it on the right */
+    }
+  
+    .brand-logo {
+      display: flex;
+      justify-content: flex-start; /* Keep logo aligned to the left */
+      width: 100%; /* Ensure it takes up full width in small screens */
+    }
+  }
+  
